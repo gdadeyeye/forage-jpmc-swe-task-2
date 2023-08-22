@@ -44,10 +44,6 @@ class Graph extends Component<IProps, {}> {
                        "top-bid-price": "avg",
                        "timestamp": "distinct count"});
     
-
-
-
-    
     const schema = {
       stock: 'string',
       top_ask_price: 'float',
